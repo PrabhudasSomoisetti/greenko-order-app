@@ -11,7 +11,7 @@ public class OrderApp {
 	public static void main(String[] args) {
 		List<Order> orders = OrderLoader.loadOrders("orders.csv");
 
-        System.err.println("Total Delivered Revenue:" + OrderAnalytics.totalDeliveredRevenue(orders));
+        System.out.println("Total Delivered Revenue:" + OrderAnalytics.totalDeliveredRevenue(orders));
 //        System.out.println(OrderAnalytics.totalDeliveredRevenue(orders));
 
         System.err.println("\n\nRevenue Per City:");
